@@ -120,4 +120,30 @@ def dequeue(self):
 ```
 What does this code do?
 
-Imagine that we have stack s1 with some items in it
+Imagine that we have stack s1 with some items in it.
+let's say that the items are 3 4 5 6 7 <-- top
+7 is top of stack
+
+I want to remove and print every item on the stack
+```python
+while not s1.is_empty():
+  item = s1.pop()
+  print(item)
+  # or print(s1.pop())
+
+Output:
+7 6 5 4 3
+```
+
+Let's say that you wanted to print them in the opposite order... how??
+
+```python
+lst = []
+while not s1.is_empty():
+  lst.append(s1.pop())
+
+lst.reverse()
+for item in lst:
+  print(item)
+
+```
