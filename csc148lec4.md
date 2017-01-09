@@ -78,3 +78,46 @@ s1.pop()
 - Pop: [5] (and returns 8)
 - Pop: [] (and returns 5)
 - Pop: error!
+
+## Uses for a stack
+- Keep track of pages visited in a browswer tab
+- keep track of function calls in a running program
+- check for balanced parentheses
+- keep undo/redo history in a text editor or word processor
+- and lots more!
+
+## Queue ADT
+- a sequence of objects again, but the operators are different than the stack ones
+- objects are removed in the same order they are inserted (first in first out) FIFO
+
+- Example in real life:
+  - Lineup at Fresh restaurant
+  - First, Michael shows up
+  - Then, Nikki shows up
+  - Then, dan shows up
+  - Then, restaurant opens... who gets in first?
+    - Michael
+    - Nikki
+    - Dan
+
+
+- enqueue(o) Add o to the end of the Queue
+- dequeue() remove and return object at the front of the Queue
+- front() return object at the front of the Queue
+- is_empty() test if queue is empty
+- size() return number of items in Queue
+
+One way to implement a queue:
+
+```python
+def enqueue(self, item):
+  ... append to right end of a list
+
+def dequeue(self):
+  ... remove from the left of the list
+
+
+```
+What does this code do?
+
+Imagine that we have stack s1 with some items in it
