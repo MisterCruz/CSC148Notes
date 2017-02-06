@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="657px" height="467px" viewBox="0 0 657 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>CSC148Tree</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-1" fill="#FF7777" sketch:type="MSShapeGroup" x="0" y="0" width="657" height="467" rx="8"></rect>
+        <ellipse id="Oval-1" fill="#4EDFAA" sketch:type="MSShapeGroup" cx="265.5" cy="72" rx="48.5" ry="42"></ellipse>
+        <text id="5" sketch:type="MSTextLayer" font-family="Dosis" font-size="59" font-weight="bold" fill="#FFFFFF">
+            <tspan x="252" y="91">5</tspan>
+        </text>
+        <ellipse id="Oval-1" fill="#4FDFAA" sketch:type="MSShapeGroup" cx="168.5" cy="196" rx="48.5" ry="42"></ellipse>
+        <text id="4" sketch:type="MSTextLayer" font-family="Dosis" font-size="59" font-weight="bold" fill="#FFFFFF">
+            <tspan x="154" y="216">4</tspan>
+        </text>
+        <ellipse id="Oval-1" fill="#4FDFAA" sketch:type="MSShapeGroup" cx="362.5" cy="196" rx="48.5" ry="42"></ellipse>
+        <text id="3" sketch:type="MSTextLayer" font-family="Dosis" font-size="59" font-weight="bold" fill="#FFFFFF">
+            <tspan x="347" y="218">3</tspan>
+        </text>
+        <ellipse id="Oval-1" fill="#4FDFAA" sketch:type="MSShapeGroup" cx="298.5" cy="358" rx="48.5" ry="42"></ellipse>
+        <text id="2" sketch:type="MSTextLayer" font-family="Dosis" font-size="59" font-weight="bold" fill="#FFFFFF">
+            <tspan x="283" y="381">2</tspan>
+        </text>
+        <ellipse id="Oval-1" fill="#4FDFAA" sketch:type="MSShapeGroup" cx="459.5" cy="358" rx="48.5" ry="42"></ellipse>
+        <text id="1" sketch:type="MSTextLayer" font-family="Dosis" font-size="59" font-weight="bold" fill="#FFFFFF">
+            <tspan x="451" y="385">1</tspan>
+        </text>
+        <path d="M233.5,104.5 L184.5,156.5" id="Line" stroke="#000000" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M300,103 L338,159" id="Line" stroke="#000000" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M337.5,232.5 L306.5,315.5" id="Line" stroke="#0E0E0E" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M388.5,232.5 L440.5,318.5" id="Line" stroke="#000000" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
