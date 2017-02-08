@@ -17,3 +17,20 @@ def insert_right(bt, value):
     # we are inserting into the right subtree
     # and making the old right subtree be the right subtree
     # of the new right subtree
+
+def contains(bt, value):
+    '''(BT, value) -> bool
+    Return True iff value is in bt.
+
+    >>> contains([4, [5, None, None], None], 5)
+    True
+
+    '''
+    if not bt:
+        return False
+
+    # found at root, or in left, or in right
+    
+    return bt[0] == value or contains(bt[1], value) or contains(bt[2], value)
+
+    
